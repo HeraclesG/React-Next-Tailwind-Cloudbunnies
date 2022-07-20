@@ -1,0 +1,64 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Alef&family=Catamaran:wght@100&family=Edu+NSW+ACT+Foundation&family=Fuzzy+Bubbles&family=Heebo:wght@100;200;300;400&family=Inter:wght@600&family=Irish+Grover&family=Lato:ital,wght@1,300&family=Lemon&family=Manrope:wght@300;400&family=Mukta:wght@300;400&family=Open+Sans:wght@300&family=PT+Sans&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Roboto+Flex:opsz,wght@8..144,300&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Irish-Grover';
+  src: url(/fonts/IrishGrover-Regular.ttf);
+}
+
+.font-irish-grover {
+  font-family: 'Irish-Grover';
+}
+
+@layer base {
+  .faqBackground {
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.3) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      url("/img/faq.png");
+  }
+
+  .dark {
+    box-shadow: 0 -30px 40px  #fffefc inset;
+  }
+
+  .darks {
+    box-shadow: 0 40px 40px   inset;
+  }
+
+  .hero-text {
+    font-size: 111px;
+    letter-spacing: 0.3rem;
+  }
+
+  .page-container {
+    max-width: 1560px;
+    width: 100%;
+  }
+}
+
+input[type="number"]:not([step="any"])::-webkit-inner-spin-button,
+input[type="number"]:not([step="any"])::-webkit-outer-spin-button {
+  opacity: 1;
+}
