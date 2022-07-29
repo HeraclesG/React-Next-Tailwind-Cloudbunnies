@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Demo App
 
-Please check out this link (https://next-cloudbunnies-nft-landing-page.vercel.app/)
+Please check out this link (https://next-cloudbunnies-nft-landing-page.vercel.app/).
 
 This is demo deployed using Vercel.
 
