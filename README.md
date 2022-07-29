@@ -4,6 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Please check out this link (https://next-cloudbunnies-nft-landing-page.vercel.app/)
 
+This is demo deployed using Vercel.
+
 ## Getting Started
 
 First, run the development server:
